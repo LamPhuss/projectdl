@@ -1,0 +1,38 @@
+# Đề tài 4 — Phát hiện đối tượng với YOLO
+# Cài đặt:  pip install -r requirements.txt
+#
+# LƯU Ý: cài PyTorch TRƯỚC và đúng bản CUDA của máy, ví dụ cho CUDA 12.1:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Sau đó mới chạy file này.
+
+ultralytics==8.3.40
+torch>=2.1.0
+torchvision>=0.16.0
+
+numpy>=1.26,<2.1
+pandas>=2.1.0
+pyarrow>=14.0.0          # để ghi/đọc annotations.parquet
+scipy>=1.11.0            # k-means anchor ở notebook 02 §6.1
+matplotlib>=3.8.0
+seaborn>=0.13.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+PyYAML>=6.0
+tqdm>=4.66.0
+
+# Notebook
+jupyterlab>=4.0.0
+ipywidgets>=8.1.0
+
+# Tải dữ liệu từ Kaggle (tùy chọn — có thể tải tay)
+kagglehub>=0.3.0
+
+# Phân tích lỗi ở notebook 04 (ma trận nhầm lẫn, chỉ số theo lớp).
+# Việc ghép dự đoán <-> nhãn thật dùng thuật toán tham lam tự cài, không cần thư viện.
+scikit-learn>=1.3.0
+
+# So sánh Faster R-CNN ở notebook 03 (yêu cầu nâng cao).
+# Dùng chuẩn tính mAP của torchmetrics (COCO-style) để nhất quán với cách
+# ultralytics tính mAP cho YOLOv8n, đảm bảo so sánh công bằng.
+torchmetrics[detection]>=1.4.0
+pycocotools>=2.0.7       # torchmetrics cần cho phần detection mAP

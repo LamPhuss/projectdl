@@ -1,0 +1,4 @@
+﻿split,n_images,n_boxes,boxes_per_image,n_empty_images,n_boxes_dropped
+train,3501,17783,5.08,0,0
+val,750,3867,5.16,0,0
+test,749,3852,5.14,0,0

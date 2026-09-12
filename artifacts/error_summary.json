@@ -1,0 +1,11 @@
+{
+  "n_test_images": 749,
+  "n_predictions": 3637,
+  "n_TP": 3351,
+  "n_nham_lop": 20,
+  "n_dinh_vi_lech": 27,
+  "n_bo_sot": 454,
+  "n_phat_hien_thua": 239,
+  "conf_deploy": 0.4,
+  "iou_deploy": 0.4
+}

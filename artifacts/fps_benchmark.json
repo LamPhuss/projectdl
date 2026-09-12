@@ -1,0 +1,92 @@
+{
+  "yolo416_predict": {
+    "ms_mean": 3.127,
+    "ms_std": 0.005,
+    "fps": 319.8,
+    "samples_ms": [
+      3.132,
+      3.123,
+      3.126
+    ]
+  },
+  "yolo416_forward": {
+    "ms_mean": 2.208,
+    "ms_std": 0.003,
+    "fps": 452.8,
+    "samples_ms": [
+      2.206,
+      2.211,
+      2.208
+    ]
+  },
+  "yolo640_predict": {
+    "ms_mean": 3.566,
+    "ms_std": 0.013,
+    "fps": 280.4,
+    "samples_ms": [
+      3.577,
+      3.57,
+      3.552
+    ]
+  },
+  "yolo640_forward": {
+    "ms_mean": 2.244,
+    "ms_std": 0.003,
+    "fps": 445.6,
+    "samples_ms": [
+      2.248,
+      2.242,
+      2.242
+    ]
+  },
+  "yolo960_predict": {
+    "ms_mean": 6.227,
+    "ms_std": 0.075,
+    "fps": 160.6,
+    "samples_ms": [
+      6.141,
+      6.279,
+      6.261
+    ]
+  },
+  "yolo960_forward": {
+    "ms_mean": 2.288,
+    "ms_std": 0.001,
+    "fps": 437.0,
+    "samples_ms": [
+      2.289,
+      2.289,
+      2.288
+    ]
+  },
+  "frcnn416_forward": {
+    "ms_mean": 9.342,
+    "ms_std": 0.007,
+    "fps": 107.0,
+    "samples_ms": [
+      9.345,
+      9.348,
+      9.334
+    ]
+  },
+  "frcnn640_forward": {
+    "ms_mean": 9.74,
+    "ms_std": 0.041,
+    "fps": 102.7,
+    "samples_ms": [
+      9.723,
+      9.787,
+      9.712
+    ]
+  },
+  "frcnn960_forward": {
+    "ms_mean": 15.143,
+    "ms_std": 0.037,
+    "fps": 66.0,
+    "samples_ms": [
+      15.185,
+      15.116,
+      15.128
+    ]
+  }
+}

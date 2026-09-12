@@ -1,0 +1,11 @@
+# Sinh tự động bởi notebooks/01_data_prep.ipynb — không sửa tay
+path: /home/lablee/Documents/wm/projectdl/data/yolo
+train: images/train
+val: images/val
+test: images/test
+
+nc: 3
+names:
+  0: helmet
+  1: head
+  2: person

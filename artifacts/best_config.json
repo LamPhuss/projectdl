@@ -1,0 +1,10 @@
+{
+  "weights": "/home/lablee/Documents/wm/projectdl/runs/yolov8n_640_e80/weights/best.pt",
+  "imgsz": 640,
+  "conf_deploy": 0.4,
+  "iou_deploy": 0.4,
+  "conf_eval": 0.001,
+  "iou_eval": 0.7,
+  "test_mAP50": 0.628917959240961,
+  "test_mAP50_95": 0.41318532487749754
+}

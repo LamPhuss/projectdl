@@ -1,0 +1,4 @@
+﻿split,n_images,n_labels,img_without_label,label_without_img,bad_coord_lines,bad_class_ids
+train,3501,3501,0,0,0,0
+val,750,750,0,0,0,0
+test,749,749,0,0,0,0

@@ -1,0 +1,33 @@
+# Dữ liệu gốc và dữ liệu đã chuyển đổi — quá lớn cho git (~2,5 GB).
+# Cách lấy lại: xem README, mục "Tải dữ liệu".
+data/
+
+# Checkpoint và log huấn luyện của ultralytics — tái tạo được bằng cách
+# chạy lại 02_train_eval.ipynb / 03_faster_rcnn.ipynb (FORCE_RETRAIN=False
+# nếu chỉ cần đọc lại kết quả cũ, True nếu muốn train lại từ đầu).
+runs/
+
+# Slide thuyết trình — không phải mã nguồn, quá nặng cho git.
+*.pptx
+
+# Video demo (nguồn công trường tải về + video suy luận đã sinh) — quá nặng
+# cho git (~34 MB source + ~33 MB output). Ảnh demo rời (.jpg) nhẹ hơn nhiều
+# nên vẫn giữ lại để làm minh hoạ.
+demo/video/
+demo/image/*.mp4
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Backup file tự sinh khi chỉnh sửa notebook thủ công
+*.ipynb.bak
+
+# Môi trường ảo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
