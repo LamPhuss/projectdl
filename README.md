@@ -1,8 +1,8 @@
-# Phát hiện đội mũ bảo hộ lao động — Fine-tune YOLOv8n và phân tích lỗi
+# Phát hiện đội mũ bảo hộ lao động Fine-tune YOLOv8n và phân tích lỗi
 
-Bài tập lớn môn Học sâu — Trường Công nghệ Thông tin và Truyền thông, Đại học Bách khoa Hà Nội.
+Bài tập lớn môn Học sâ
 
-Fine-tune YOLOv8n cho bài toán phát hiện ba lớp đối tượng trên công trường xây dựng — `helmet` (có mũ), `head` (đầu trần), `person` (người toàn thân) — kèm phân tích lỗi định lượng và so sánh chéo với Faster R-CNN (two-stage) để kiểm chứng nguyên nhân gốc của các lỗi quan sát được.
+Fine-tune YOLOv8n cho bài toán phát hiện ba lớp đối tượng trên công trường xây dựng `helmet` (có mũ), `head` (đầu trần), `person` (người toàn thân), kèm phân tích lỗi định lượng và so sánh chéo với Faster R-CNN (two-stage) để kiểm chứng nguyên nhân gốc của các lỗi quan sát được.
 
 ## Kết quả chính
 
@@ -85,13 +85,13 @@ projectdl/
 
 - `SEED = 42` cố định cho `random`, `numpy`, `torch`, `cudnn.deterministic = True`.
 - Chia tập dùng `np.random.default_rng(42)` với khoá phân tầng tất định → chạy lại ra đúng cùng một tập test; danh sách lưu ở `artifacts/splits.json`.
-- Mọi lượt chạy được ghi vào `logs/experiment_log.csv` — mọi con số trong báo cáo đều truy được về một dòng cụ thể trong file này.
+- Mọi lượt chạy được ghi vào `logs/experiment_log.csv`, mọi con số trong báo cáo đều truy được về một dòng cụ thể trong file này.
 
 ## 6. Nguồn tham khảo và phần tự viết
 
 **Thư viện sử dụng:**
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) — kiến trúc, vòng huấn luyện, `val()` tính mAP, các hình do thư viện tự sinh.
-- `torchvision` — Faster R-CNN cho notebook 03.
+- `torchvision`: Faster R-CNN cho notebook 03.
 - Trọng số tiền huấn luyện `yolov8n.pt` (COCO) do Ultralytics phát hành.
 
 **Phần tự viết:** toàn bộ `data_utils.py`, `error_analysis.py`, `frcnn_utils.py`, `benchmark_fps.py`, `demo_inference.py`, thiết kế thí nghiệm và nội dung phân tích trong cả 4 notebook.
