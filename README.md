@@ -90,7 +90,7 @@ projectdl/
 ## 6. Nguồn tham khảo và phần tự viết
 
 **Thư viện sử dụng:**
-- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) — kiến trúc, vòng huấn luyện, `val()` tính mAP, các hình do thư viện tự sinh.
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics): kiến trúc, vòng huấn luyện, `val()` tính mAP, các hình do thư viện tự sinh.
 - `torchvision`: Faster R-CNN cho notebook 03.
 - Trọng số tiền huấn luyện `yolov8n.pt` (COCO) do Ultralytics phát hành.
 
